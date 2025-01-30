@@ -27,11 +27,13 @@ while(togle)
             {
                 window.alert("ha ha ha enter a bit less ");
                 promt=window.prompt(`enter the number between ${min}-${max}`);
+                randomnum=Math.round(Math.random()*(max-min))+min;
             }
             else if(promt<randomnum)
             {
                 window.alert("ha ha ha enter a bit high");
                 promt=window.prompt(`enter the number between ${min}-${max}`);
+                randomnum=Math.round(Math.random()*(max-min))+min;
             }
     }
 }
